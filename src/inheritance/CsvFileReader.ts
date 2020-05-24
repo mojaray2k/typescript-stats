@@ -1,5 +1,8 @@
 import fs from 'fs';
 
+/**
+ * @description You have to pass in a generic <T>
+ */
 export abstract class CsvFileReader<T> {
   // data is a two dimensional array of strings
   data: T[] = [];

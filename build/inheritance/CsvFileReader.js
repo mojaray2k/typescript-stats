@@ -5,6 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CsvFileReader = void 0;
 var fs_1 = __importDefault(require("fs"));
+/**
+ * @description You have to pass in a generic <T>
+ */
 var CsvFileReader = /** @class */ (function () {
     function CsvFileReader(filename) {
         this.filename = filename;
